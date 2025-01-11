@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="bai06a.css">
+</head>
+<body>
+    <span class="container">
+        <div class="img">
+            <img src="../images/jackson.jpg" alt="jackson electronics">
+            <br>
+            <h1>Registration Form</h1>
+            <br>
+            <p>Register your Jackson Electronics product here</p>
+        </div>
+        <form>
+            <label id="a" for="firstname">First Name:</label>
+            <input type="text" id="firstname" required>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" required>
+            <br>
+            <label id="a" for="address1">Address #1:</label>
+            <input type="text" id="address1" required>
+            <br>
+            <label id="a" for="address2">Address #2:</label>
+            <input type="text" id="address2" required>
+            <br>
+            <label id="a" for="city">City:</label>
+            <input type="text" id="city" required>
+            <label for="state">State:</label>
+            <input type="text" id="state" required>
+            <label for="zip">Zip:</label>
+            <input type="tel" id="zip" required>
+            <br>
+            <label id="a" for="country">Country:</label>
+            <input type="text" id="country" placeholder="United States" required>
+            <hr>
+            <label id="a" for="product">Product:</label>
+            <select id="product">
+                <option value="ScanMaster">ScanMaster</option>
+                <option value="Printer">Printer</option>
+                <option value="TypeWriter">TypeWriter</option>
+            </select>
+            <br>
+            <label id="a" for="date">Date Purchased:</label>
+            <input type="date" id="date" required>
+            <br>
+            <label id="a" for="serial">Serial #:</label>
+            <input type="text" id="serial" required>
+            <br>
+            <label id="a" for="usedfor">Used for:</label>
+
+            <input type="radio" id="Home" value="Home">
+            <label for="Home">Home</label>
+            <input type="radio" id="Educational" value="Educational Institution">
+            <label for="Educational">Educational Institution</label>
+            <br>
+            <input type="radio" id="Business" value="Business">
+            <label for="Business">Business</label>
+            <input type="radio" id="Other1" value="Other">
+            <label for="Other1">Other</label>
+            <br>
+            <input type="radio" id="Government" value="Government">
+            <label for="Government">Government</label>
+            <br>
+
+            <label id="a" for="system">System (check all that apply):</label>
+            <input type="checkbox" id="Windows" value="Windows">
+            <label for="Windows">Windows</label>
+            <input type="checkbox" id="UNIX" value="UNIX">
+            <label for="UNIX">UNIX</label>
+            <br>
+            <input type="checkbox" id="Macintosh" value="Macintosh">
+            <label for="Macintosh">Macintosh</label>
+            <input type="checkbox" id="Other2" value="Other">
+            <label for="Other2">Other</label>
+            <hr>
+            <label id="a" for="comments">Comments?:</label>
+            <textarea id="comments" rows="5" cols="35"></textarea>
+            <br>
+            <div class="button">
+                <button type="submit">Click to register</button>
+                <button type="reset">Click to cancel</button>
+            </div>
+        </form>
+    </span>
+</body>
+</html>

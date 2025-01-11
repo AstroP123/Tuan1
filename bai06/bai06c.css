@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    padding: 10px;
+    border: 2px solid #ADCDE9;
+    border-radius: 10px;
+}
+
+.form__second,
+.form__third,
+.form__fourth,
+.form__fifth,
+.form__sixth{
+    margin-top: 17px;
+}
+
+.form__first--same{
+    width: 170px;
+}

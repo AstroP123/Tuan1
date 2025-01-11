@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #99CDFF;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    display: inline-block;
+    width: 550px;
+}
+label, input{
+    margin: 2px;
+}
+.img{
+    text-align: center;
+}
+#a{
+    margin-left: 50px;
+}
+#firstname{
+    width: 100px;
+    margin-left: 50px;
+}
+#lastname{
+    width: 100px;
+}
+#address1{
+    width: 200px;
+    margin-left: 49px;
+}
+#address2{
+    width: 200px;
+    margin-left: 49px;
+}
+#city{
+    width: 140px;
+    margin-left: 94px;
+}
+#state{
+    width: 30px;
+}
+#zip{
+    width: 60px;
+}
+#country{
+    width: 140px;
+    margin-left: 69px;
+}
+#product{
+    width: 100px;
+    margin-left: 72px;
+}
+#date{
+    width: 100px;
+    margin-left: 22px;
+}
+#serial{
+    width: 100px;
+    margin-left: 72px;
+}
+#Home{
+    margin-left: 67px;
+}
+#Business{
+    margin-left: 183px;
+}
+#Government{
+    margin-left: 183px;
+}
+#Educational{
+    margin-left: 33px;
+}
+#Other1{
+    margin-left: 15px;
+}
+#Macintosh{
+    margin-left: 255px;
+}
+#Macintosh{
+    margin-left: 245px;
+}
+#Other2{
+    margin-left: 5px;
+}
+#comments{
+    margin-left: 45px;
+}
+.button{
+    margin-left: 145px;
+}
